@@ -4,6 +4,7 @@
  */
 package prueba.despliegue;
 
+import java.util.ArrayList;
  import java.util.Scanner;
  import java.util.ArrayList;
 
@@ -12,8 +13,6 @@ public class PruebaDespliegue {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         ArrayList<Integer> numbers = new ArrayList<>();
-        
-        
 
         System.out.print("Ingrese el primer número: ");
         int numero1 = input.nextInt();
@@ -35,12 +34,10 @@ public class PruebaDespliegue {
         
         for (int i = 0 ; i < numbers.size(); i++) {
          
-            if (numbers.get(i)%2 != 0){
+            if (numbers.get(i)%2 == 0){
                 System.out.println(numbers.get(i));
             }
         }
-        
-       
     } 
 }
 
