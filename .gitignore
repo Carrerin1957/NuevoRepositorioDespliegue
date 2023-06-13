@@ -1,0 +1,6 @@
+#Archivos a ignorar
+build.xml
+manifest.mf
+nbproject/
+build/
+
